@@ -407,10 +407,6 @@ section {
   margin-top: 2rem;
 }
 
-#about .section__pic-container {
-  display: none;
-}
-
 .about-details-container {
   justify-content: center;
   flex-direction: column;
