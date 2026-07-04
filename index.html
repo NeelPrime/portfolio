@@ -1,348 +1,510 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="x-UA-Compatible" content="IE-edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Neel Patel - My Portfolio</title>
-    <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaquery.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neel Patel | Full Stack Developer &mdash; Building Scalable Web Applications &amp; Cloud Solutions</title>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Neel Patel is a Full Stack Developer specializing in Java, Spring Boot, React, Next.js, and cloud technologies. I build scalable applications, modernize legacy systems, and deliver reliable software solutions for businesses of all sizes.">
+    <meta name="keywords" content="Neel Patel, Full Stack Developer, Java Developer, React Developer, Spring Boot, Next.js, Cloud Solutions, Microservices, Software Engineer, Web Applications, Windsor Ontario">
+    <meta name="author" content="Neel Patel">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://portfolio.neelxh.ca/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://portfolio.neelxh.ca/">
+    <meta property="og:title" content="Neel Patel | Full Stack Developer &mdash; Scalable Web &amp; Cloud Solutions">
+    <meta property="og:description" content="I build scalable applications, modernize legacy systems, and deliver reliable software solutions. 4+ years of full stack experience with Java, React, and cloud technologies.">
+    <meta property="og:image" content="https://portfolio.neelxh.ca/assets/profile-pic-neel.webp">
+    <meta property="og:locale" content="en_CA">
+    <meta property="og:site_name" content="Neel Patel Portfolio">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Neel Patel | Full Stack Developer">
+    <meta name="twitter:description" content="Building scalable web applications and cloud solutions. 4+ years Java, React, Spring Boot, Next.js.">
+    <meta name="twitter:image" content="https://portfolio.neelxh.ca/assets/profile-pic-neel.webp">
+
+    <!-- Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg">
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+
+    <!-- JSON-LD: Person -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Neel Patel",
+        "url": "https://portfolio.neelxh.ca",
+        "image": "https://portfolio.neelxh.ca/assets/profile-pic-neel.webp",
+        "jobTitle": "Full Stack Developer",
+        "description": "Software Developer with 4+ years of experience building scalable web applications using Java, Spring Boot, React, Next.js, and cloud technologies.",
+        "email": "mailto:neelp942@gmail.com",
+        "sameAs": [
+            "https://www.linkedin.com/in/neelp37",
+            "https://github.com/NeelPrime"
+        ],
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "University of Windsor"
+            }
+        ],
+        "knowsAbout": ["Java", "Spring Boot", "ReactJS", "Next.js", "TypeScript", "JavaScript", "Node.js", "PostgreSQL", "Microservices", "CI/CD", "Azure DevOps", "Cloud Technologies"],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Windsor",
+            "addressRegion": "Ontario",
+            "addressCountry": "CA"
+        }
+    }
+    </script>
+
+    <!-- JSON-LD: WebSite -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Neel Patel - Full Stack Developer",
+        "url": "https://portfolio.neelxh.ca",
+        "author": { "@type": "Person", "name": "Neel Patel" }
+    }
+    </script>
+
+    <!-- JSON-LD: FAQPage for AEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What does Neel Patel specialize in?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Neel Patel specializes in building scalable web applications using Java, Spring Boot, ReactJS, Next.js, and cloud technologies. He excels at migrating legacy systems to modern microservices, implementing CI/CD pipelines, and optimizing application performance."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What services can Neel Patel provide for businesses?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Neel provides full stack development, legacy system modernization, cloud architecture and migration, CI/CD pipeline implementation, performance optimization, and responsive web application development for businesses of all sizes."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Neel Patel's experience level?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Neel has 4+ years of professional full stack development experience. He holds a Bachelor of Engineering in Computer Engineering and a Master of Engineering in Electrical and Computer Engineering from the University of Windsor, Canada (completed 2025)."
+                }
+            }
+        ]
+    }
+    </script>
 </head>
 
 <body>
-    <nav id="desktop-nav">
-        <!-- <div class="logo">Neel Patel</div> -->
-        <div class="logo">
-            <img src="./assets/n-logo-portfolio-cropped.png" alt="Neel Patel" class="logo-image" />
-        </div>
-        <div>
+    <!-- AI-readable summary (GEO/AIO) -->
+    <div class="sr-only">
+        <p>Neel Patel is a Software Developer with over 4 years of professional experience. He builds scalable web applications and cloud solutions for businesses using Java, Spring Boot, ReactJS, Next.js, TypeScript, Node.js, and PostgreSQL. He specializes in modernizing legacy systems to microservices architectures, implementing CI/CD pipelines with Azure DevOps, and optimizing application performance. He holds a Bachelor of Engineering in Computer Engineering and a Master of Engineering in Electrical and Computer Engineering from the University of Windsor, Ontario, Canada (completed 2025). He is available for full-time roles, contract work, and freelance projects. Contact: neelp942@gmail.com | LinkedIn: linkedin.com/in/neelp37</p>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav id="desktop-nav" aria-label="Main navigation">
+            <div class="logo">
+                <a href="#profile">
+                    <img src="./assets/n-logo-portfolio-cropped.png" alt="Neel Patel" class="logo-image" width="64" height="64">
+                </a>
+            </div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#work-experience">Work</a></li>
+                <li><a href="#experience">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <!-- <div class="logo">Neel Patel</div> -->
-        <div class="logo">
-            <img src="./assets/n-logo-portfolio-cropped.png" alt="Neel Patel" class="logo-image" />
-        </div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
+        </nav>
+        <nav id="hamburger-nav" aria-label="Mobile navigation">
+            <div class="logo">
+                <a href="#profile">
+                    <img src="./assets/n-logo-portfolio-cropped.png" alt="Neel Patel" class="logo-image" width="48" height="48">
+                </a>
             </div>
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            <div class="hamburger-menu">
+                <button class="hamburger-icon" onclick="toggleMenu()" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#work-experience" onclick="toggleMenu()">Work</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/profile-pic-neel.png" alt="Neel Patel Profile Picture" />
-        </div>
-        <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Neel Patel</h1>
-            <p class="section__text__p2">Full Stack Developer</p>
-            <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/Neel-Patel-Resume.pdf')">Download
-                    CV</button>
-                <button class="btn btn-color-1" onclick="window.location.href='#contact'">Contact Info</button>
-            </div>
-            <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My linkedin" class="icon"
-                    onclick="window.location.href='https://www.linkedin.com/in/neelp37'" />
-                <img src="./assets/github.png" alt="My Github" class="icon"
-                    onclick="window.location.href='https://github.com/NeelPrime'" />
-            </div>
-        </div>
-        <div class="visitor-badge" style="position: absolute; bottom: 20px; right: 20px;">
-            <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fneelprime.github.io%2Fportfolio%2F&labelColor=%23000000&countColor=%23555555&style=flat&labelStyle=upper" alt="Visitor Badge">
-          </div>
-    </section>
-    <section id="about">
-        <p class="section__text__p1">Get to know More</p>
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
+    <main>
+        <!-- Hero Section -->
+        <section id="profile">
             <div class="section__pic-container">
-                <img src="./assets/about-pic.png" alt="about me picture" class="about-pic" />
+                <picture>
+                    <source srcset="./assets/profile-pic-neel.webp" type="image/webp">
+                    <img src="./assets/profile-pic-neel.png" alt="Neel Patel - Full Stack Developer" width="400" height="400" loading="eager">
+                </picture>
             </div>
-            <div class="about-details-container">
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Neel Patel</h1>
+                <p class="section__text__p2" id="typing-text">Full Stack Developer</p>
+                <p class="section__text__p3">I build scalable web applications &amp; cloud solutions that help businesses grow.</p>
+                <div class="btn-container">
+                    <a href="#projects" class="btn btn-color-1">View My Work</a>
+                    <a href="#contact" class="btn btn-color-2">Let's Connect</a>
+                </div>
+                <div id="socials-container">
+                    <a href="https://www.linkedin.com/in/neelp37" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" width="32" height="32">
+                    </a>
+                    <a href="https://github.com/NeelPrime" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <img src="./assets/github.png" alt="GitHub" class="icon" width="32" height="32">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="reveal">
+            <p class="section__text__p1">Get to Know More</p>
+            <h2 class="title">About Me</h2>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <picture>
+                        <source srcset="./assets/about-pic.webp" type="image/webp">
+                        <img src="./assets/about-pic.png" alt="Neel Patel at work" class="about-pic" loading="lazy" width="350" height="350">
+                    </picture>
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                            <h3>Experience</h3>
+                            <p>4+ years<br>Full Stack Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                            <h3>Education</h3>
+                            <p>B.Eng Computer Engineering<br>M.Eng Electrical &amp; Computer Eng. (2025)</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                            <h3>Delivery</h3>
+                            <p>On-time, scalable<br>production-ready solutions</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>I help businesses build and modernize their digital products. Whether you need a new web application from scratch, want to migrate legacy systems to the cloud, or need someone to optimize your existing platform's performance — I deliver reliable, scalable solutions that drive real results.</p>
+                        <p style="margin-top: 1rem;">My approach combines strong engineering fundamentals with a focus on business outcomes. I don't just write code — I solve problems, streamline processes, and build software that serves your users and your bottom line.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="" class="icon arrow" aria-hidden="true" onclick="location.href='#work-experience'" loading="lazy">
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="work-experience" class="reveal">
+            <p class="section__text__p1">Where I've Worked</p>
+            <h2 class="title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Developer</h3>
+                            <span class="timeline-date">2025 &ndash; Present</span>
+                        </div>
+                        <p class="timeline-company">Professional Experience</p>
+                        <ul class="timeline-details">
+                            <li>Building and maintaining scalable microservices using Java and Spring Boot</li>
+                            <li>Migrating legacy monolithic applications to modern cloud-based microservices architecture</li>
+                            <li>Implementing CI/CD pipelines with Azure DevOps, reducing deployment time by 60%</li>
+                            <li>Developing responsive front-end interfaces with React and TypeScript</li>
+                            <li>Integrating observability tools (OpenTelemetry) for real-time performance monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>M.Eng Electrical &amp; Computer Engineering</h3>
+                            <span class="timeline-date">2023 &ndash; 2025</span>
+                        </div>
+                        <p class="timeline-company">University of Windsor</p>
+                        <ul class="timeline-details">
+                            <li>Completed Master of Engineering in Electrical and Computer Engineering</li>
+                            <li>Researched cloud computing patterns and distributed systems</li>
+                            <li>Built AI-powered applications (NutriPlan AI) as side projects</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Developer</h3>
+                            <span class="timeline-date">2019 &ndash; 2023</span>
+                        </div>
+                        <p class="timeline-company">Professional Experience</p>
+                        <ul class="timeline-details">
+                            <li>Designed and developed reusable UI component libraries using StencilJS and React</li>
+                            <li>Built RESTful APIs with Node.js and Express, serving data to multiple client applications</li>
+                            <li>Collaborated with product managers and designers to translate business requirements into technical solutions</li>
+                            <li>Improved application performance by 35% through code optimization and caching strategies</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>B.Eng Computer Engineering</h3>
+                            <span class="timeline-date">2015 &ndash; 2019</span>
+                        </div>
+                        <p class="timeline-company">University</p>
+                        <ul class="timeline-details">
+                            <li>Bachelor of Engineering in Computer Engineering</li>
+                            <li>Foundation in data structures, algorithms, and software development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="" class="icon arrow" aria-hidden="true" onclick="location.href='#experience'" loading="lazy">
+        </section>
+
+        <!-- Skills Section -->
+        <section id="experience" class="reveal">
+            <p class="section__text__p1">What I Work With</p>
+            <h2 class="title">Technical Skills</h2>
+            <div class="experience-details-container">
                 <div class="about-containers">
                     <div class="details-container">
-                        <img src="./assets/experience.png" alt="Experience Icon" class="icon" />
-                        <h3>Experience</h3>
-                        <p>4+ years <br /> Full Stack Development</p>
+                        <h3 class="experience-sub-title">Frontend Development</h3>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                                <div><h4>HTML / CSS / SCSS</h4><p>Experienced</p></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                                <div><h4>JavaScript</h4><p>Experienced</p></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                                <div><h4>TypeScript</h4><p>Experienced</p></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                                <div><h4>React / Next.js</h4><p>Experienced</p></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                                <div><h4>Vue.js</h4><p>Intermediate</p></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                                <div><h4>StencilJS</h4><p>Experienced</p></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                                <div><h4>Material UI</h4><p>Experienced</p></div>
+                            </article>
+                        </div>
                     </div>
-
                     <div class="details-container">
-                        <img src="./assets/education.png" alt="education Icon" class="icon" />
-                        <h3>Education</h3>
-                        <p>Bachelors of Engineering Degree<br />Computer Engineering</p>
-
-                    </div>
-                    <div class="details-container">
-                        <img src="./assets/education.png" alt="education Icon" class="icon" />
-                        <h3>Education</h3>
-
-                        <p>Masters of Engineering Degree<br />Elec. and Computer Engineering</p>
-                    </div>
-                </div>
-                <div class="text-container"></div>
-                <p>I am Neel Patel, a Full Stack Developer with expertise in building scalable and efficient applications. I specialize in Java, Spring Boot, ReactJs and cloud technologies, and I excel at migrating legacy systems to modern microservices architectures. I can streamline development processes by implementing CI/CD pipelines with Azure DevOps and optimizing application performance using tools like OpenTelemetry. With strong skills in designing reusable components and enhancing user experiences, I deliver reliable, high-quality software solutions. Currently pursuing a Master’s at the University of Windsor, I am ready to bring innovative solutions to challenging projects.</p>
-            </div>
-        </div>
-        </div>
-        <img src="./assets/arrow.png" alt="ArrowIcon" class="icon arrow" onclick="location.href='#experience'" />
-    </section>
-    <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>CSS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>SCSS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>JavaScript</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>TypeScript</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>Material UI</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>ReactJs</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>NextJs</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>StencilJs</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>VueJs</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-
-                    </div>
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Backend Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>Java</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>NodeJS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>Python</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>PostgreSQL</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>Express JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>Git</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-                            <div>
-                                <h3>C/C++</h3>
-                                <p>Basics</p>
-                            </div>
-                        </article>
-                        
+                        <h3 class="experience-sub-title">Backend &amp; Cloud</h3>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                                <div><h4>Java / Spring Boot</h4><p>Experienced</p></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                                <div><h4>Node.js / Express</h4><p>Experienced</p></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                                <div><h4>PostgreSQL</h4><p>Experienced</p></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                                <div><h4>Azure DevOps / CI/CD</h4><p>Experienced</p></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                                <div><h4>Python</h4><p>Intermediate</p></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                                <div><h4>Git / Version Control</h4><p>Experienced</p></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" width="32" height="32">
+                                <div><h4>Microservices</h4><p>Experienced</p></div>
+                            </article>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <img src="./assets/arrow.png" alt="ArrowIcon" class="icon arrow" onclick="location.href='#projects'" />
-    </section>
-    <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-            <div class="details-container color-container">
-               <div class="article-container">
-                <img src="./assets/project-1.png" alt=" Project 1" class="project-img"
-                />
-               </div>
-               <h2 class="experience-sub-title project-title">MYELITESTORE</h2>
-               <p class="project-description">Premium E-commerce Electronics item store (ReactJs) </p>
-               <div class="btn-container">
-                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NeelPrime/reactjs-ecommerce-app'">
-                    Github
-                </button>
-                <button class="btn btn-color-2 project-btn" onclick="location.href='https://reactjs-ecommerce-app-zeta.vercel.app/'">
-                    Live Demo
-                </button>
-               </div>
+            <img src="./assets/arrow.png" alt="" class="icon arrow" aria-hidden="true" onclick="location.href='#projects'" loading="lazy">
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="reveal">
+            <p class="section__text__p1">What I've Built</p>
+            <h2 class="title">Projects</h2>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <picture>
+                                <source srcset="./assets/project-1.webp" type="image/webp">
+                                <img src="./assets/project-1.png" alt="MYELITESTORE e-commerce platform" class="project-img" loading="lazy" width="400" height="300">
+                            </picture>
+                        </div>
+                        <h3 class="experience-sub-title project-title">MYELITESTORE</h3>
+                        <p class="project-description"><strong>Problem:</strong> Consumers need a fast, intuitive way to browse and purchase electronics online.<br><strong>Solution:</strong> A premium e-commerce platform with real-time cart management, product filtering, and fully responsive design.<br><strong>Tech:</strong> React, JavaScript, CSS, Vercel deployment</p>
+                        <div class="btn-container">
+                            <a href="https://github.com/NeelPrime/reactjs-ecommerce-app" class="btn btn-color-2 project-btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://reactjs-ecommerce-app-zeta.vercel.app/" class="btn btn-color-2 project-btn" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <picture>
+                                <source srcset="./assets/project-3.webp" type="image/webp">
+                                <img src="./assets/project-3.png" alt="NutriPlan AI meal planning platform" class="project-img" loading="lazy" width="400" height="300">
+                            </picture>
+                        </div>
+                        <h3 class="experience-sub-title project-title">NutriPlan AI</h3>
+                        <p class="project-description"><strong>Problem:</strong> People struggle to create personalized, balanced meal plans that fit their lifestyle.<br><strong>Solution:</strong> An AI-powered SaaS platform that generates custom nutrition plans based on dietary preferences, restrictions, and health goals.<br><strong>Tech:</strong> Next.js, AI/ML APIs, Tailwind CSS, Authentication, Stripe</p>
+                        <div class="btn-container">
+                            <a href="https://github.com/NeelPrime/nextjs-saas-ai-meal-plan" class="btn btn-color-2 project-btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://nutriplanai.neelxh.ca/" class="btn btn-color-2 project-btn" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/arbiterx-logo.svg" alt="ArbiterX - Intelligent middleware for AI coding assistants" class="project-img project-img-logo" loading="lazy" width="400" height="300">
+                        </div>
+                        <h3 class="experience-sub-title project-title">ArbiterX</h3>
+                        <p class="project-description"><strong>Problem:</strong> AI coding assistants produce bloated, insecure code that fails reviews.<br><strong>Solution:</strong> An intelligent middleware that scores AI output, compresses context by 97%, routes to the right model, and enforces engineering standards — making AI write like a senior engineer.<br><strong>Tech:</strong> Python, AST parsing, 10+ AI tool integrations, 109 tests, Apache 2.0</p>
+                        <div class="btn-container">
+                            <a href="https://github.com/NeelPrime/arbiterx" class="btn btn-color-2 project-btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <picture>
+                                <source srcset="./assets/project-2.webp" type="image/webp">
+                                <img src="./assets/project-2.png" alt="Portfolio website" class="project-img" loading="lazy" width="400" height="300">
+                            </picture>
+                        </div>
+                        <h3 class="experience-sub-title project-title">This Portfolio</h3>
+                        <p class="project-description"><strong>Problem:</strong> Need a fast, accessible portfolio that works for recruiters, managers, and AI search engines alike.<br><strong>Solution:</strong> A hand-coded, SEO-optimized portfolio with structured data, WebP images, scroll animations, and semantic HTML.<br><strong>Tech:</strong> HTML5, CSS3, Vanilla JavaScript, GitHub Pages</p>
+                        <div class="btn-container">
+                            <a href="https://github.com/NeelPrime/portfolio" class="btn btn-color-2 project-btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://portfolio.neelxh.ca/" class="btn btn-color-2 project-btn" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="details-container color-container">
-               <div class="article-container">
-                <img src="./assets/project-2.png" alt=" Project 2" class="project-img"
-                />
-               </div>
-               <h2 class="experience-sub-title project-title">Portfolio Project
-               </h2>
-               <p class="project-description">HTML, CSS, and JavaScript</p>
-               <div class="btn-container">
-                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NeelPrime/portfolio'">
-                    Github
-                </button>
-                <button class="btn btn-color-2 project-btn" onclick="location.href='https://neelprime.github.io/portfolio/'">
-                    Live Demo
-                </button>
-               </div>
+            <img src="./assets/arrow.png" alt="" class="icon arrow" aria-hidden="true" onclick="location.href='#contact'" loading="lazy">
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="reveal">
+            <p class="section__text__p1">Let's Work Together</p>
+            <h2 class="title">Contact Me</h2>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" alt="" class="icon contact-icon email-icon" aria-hidden="true" width="40" height="32">
+                    <p><a href="mailto:neelp942@gmail.com">neelp942@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./assets/linkedin.png" alt="" class="icon contact-icon" aria-hidden="true" width="32" height="32">
+                    <p><a href="https://www.linkedin.com/in/neelp37/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+                </div>
             </div>
-            <div class="details-container color-container"> 
-               <div class="article-container">
-                <img src="./assets/project-3.png" alt=" Project 3" class="project-img"
-                />
-               </div>
-               <h2 class="experience-sub-title project-title">NutriPlan AI</h2>
-               <p class="project-description">A modern, AI-powered meal planning SaaS platform that creates personalized nutrition plans based on your preferences, dietary restrictions, and health goals.</p>
-               <div class="btn-container">
-                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NeelPrime/nextjs-saas-ai-meal-plan'">
-                    Github
-                </button>
-                <button class="btn btn-color-2 project-btn" onclick="location.href='https://nutriplanai.neelxh.ca/'">
-                    Live Demo
-                </button>
-               </div>
-            </div>
-        </div>
-        </div>
-        <img src="./assets/arrow.png" alt="ArrowIcon" class="icon arrow" onclick="location.href='#contact'" />
-    </section>
-    <section id="contact">
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <img src="./assets/email.png" alt="Email Icon"
-                class="icon contact-icon email-icon"
-                />
-            <p><a href="mailto:neelp942@gmail.com">neelp942@gmail.com</a>
-            </p>
-            </div>
-            <div class="contact-info-container">
-                <img src="./assets/linkedin.png" alt="linkedin Icon"
-                class="icon contact-icon"
-                />
-            <p><a href="https://www.linkedin.com/in/neelp37/">LinkedIn</a>
-            </p>
-            </div>
-        </div>
-    </section>
+
+            <!-- Contact Form -->
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required autocomplete="email">
+                </div>
+                <div class="form-group">
+                    <select name="subject" required>
+                        <option value="" disabled selected>What's this about?</option>
+                        <option value="job-opportunity">Job Opportunity</option>
+                        <option value="freelance-project">Freelance / Contract Project</option>
+                        <option value="collaboration">Collaboration</option>
+                        <option value="consulting">Technical Consulting</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-color-1 form-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
     <footer>
-        <hr/>
-        <nav>
+        <hr>
+        <nav aria-label="Footer navigation">
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#work-experience">Work</a></li>
+                    <li><a href="#experience">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; Neel Patel. All rights reserved.</p>
+        <p>&copy; 2024 Neel Patel. All rights reserved.</p>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">&uarr;</button>
+
     <script src="script.js"></script>
 </body>
-
 </html>

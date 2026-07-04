@@ -1,0 +1,17 @@
+/* TEAM */
+Developer: Neel Patel
+Role: Full Stack Developer
+Contact: neelp942@gmail.com
+LinkedIn: https://www.linkedin.com/in/neelp37
+GitHub: https://github.com/NeelPrime
+Location: Windsor, Ontario, Canada
+
+/* SITE */
+Last update: 2026-07-04
+Standards: HTML5, CSS3, JavaScript ES6+
+Software: Visual Studio Code
+Hosting: GitHub Pages
+
+/* THANKS */
+Fonts: Google Fonts (Poppins)
+Icons: Custom assets

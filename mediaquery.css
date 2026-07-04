@@ -1,106 +1,249 @@
+/* ========================================
+   TABLET & SMALLER DESKTOPS (< 1400px)
+   ======================================== */
+
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+    min-height: 83vh;
+    margin-bottom: 4rem;
   }
+
   .about-containers {
     flex-wrap: wrap;
   }
+
+  section {
+    margin: 0 5rem;
+  }
 }
+
+/* ========================================
+   TABLET (< 1200px)
+   ======================================== */
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
   }
+
   #hamburger-nav {
     display: flex;
   }
+
   .logo-image {
     height: 3rem;
   }
+
   #experience,
   .experience-details-container,
   #projects {
     margin-top: 2rem;
   }
+
   #profile,
   .section-container {
     display: block;
   }
+
   .arrow {
     display: none;
   }
+
   section,
   .section-container {
     height: fit-content;
   }
+
   section {
     margin: 0 5%;
+    padding: 3rem 1rem;
   }
+
+  #profile {
+    min-height: auto;
+    padding-top: 2rem;
+  }
+
   #profile .section__pic-container {
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
   }
+
   .about-containers {
     margin-top: 0;
   }
+
+  /* Timeline responsive */
+  .timeline {
+    padding-left: 1.5rem;
+  }
+
+  .timeline-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .timeline-date {
+    margin-bottom: 0.25rem;
+  }
+
+  /* Contact form */
+  .contact-form {
+    padding: 0 1rem;
+  }
 }
+
+/* ========================================
+   MOBILE (< 600px)
+   ======================================== */
+
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 44vh;
+    min-height: auto;
   }
+
   #profile {
-    height: 83vh;
+    min-height: auto;
     margin-bottom: 0;
+    padding: 2rem 0;
   }
+
+  #profile .section__pic-container {
+    width: 220px;
+    height: 220px;
+  }
+
+  .section__text__p3 {
+    font-size: 0.95rem;
+    padding: 0 0.5rem;
+  }
+
   article {
     font-size: 1rem;
   }
+
   footer nav {
     height: fit-content;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
+
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
   }
+
   .contact-info-container {
-    margin: 0;
+    margin: 0.5rem;
   }
+
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
   }
+
   .experience-sub-title {
     font-size: 1.25rem;
   }
+
   .logo-image {
     height: 3rem;
-    padding-bottom: 0.5rem; 
   }
-  
+
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
   }
+
   .section__pic-container {
     width: auto;
     height: 46vw;
   }
+
   .section__text__p2 {
     font-size: 1.25rem;
   }
+
   #profile .section__text__p2 {
     font-size: 1.5rem;
   }
+
   .title {
     font-size: 2rem;
   }
+
   .text-container {
     text-align: justify;
+  }
+
+  /* Timeline mobile */
+  .timeline {
+    padding-left: 1.25rem;
+  }
+
+  .timeline-item {
+    padding-left: 1.5rem;
+  }
+
+  .timeline-dot {
+    left: -1.85rem;
+  }
+
+  .timeline-content {
+    padding: 1rem;
+  }
+
+  .timeline-header h3 {
+    font-size: 1rem;
+  }
+
+  .timeline-details li {
+    font-size: 0.85rem;
+  }
+
+  /* Project cards mobile */
+  .project-description {
+    font-size: 0.85rem;
+    padding: 0 0.5rem;
+  }
+
+  .project-img {
+    border-radius: 1rem;
+  }
+
+  /* Form mobile */
+  .contact-form {
+    padding: 0;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 0.75rem;
+  }
+
+  .form-btn {
+    border-radius: 0.75rem;
+  }
+
+  /* Back to top - smaller on mobile */
+  #back-to-top {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+
+  /* Buttons */
+  .btn {
+    padding: 0.8rem 1.2rem;
+    font-size: 0.85rem;
+    min-width: 7rem;
   }
 }
