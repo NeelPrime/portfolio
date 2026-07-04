@@ -1,0 +1,36 @@
+# robots.txt for portfolio.neelxh.ca
+# Allow all search engines and AI crawlers to index this site
+
+User-agent: *
+Allow: /
+
+# AI Crawlers - explicitly allowed for AIO/GEO
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemap location
+Sitemap: https://portfolio.neelxh.ca/sitemap.xml
+
+# Host
+Host: https://portfolio.neelxh.ca
